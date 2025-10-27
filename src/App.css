@@ -1,0 +1,23 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "PT Serif", serif;
+}
+
+/* Layout styles */
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+}
+
+/* Footer styles */
+.bg {
+  background-color: rgba(95, 47, 252, 1);
+  margin-top: auto;
+}
